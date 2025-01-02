@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  font-family: "Rubik Glitch", serif;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(30, 30, 30); /* Thumb color */
+  border-radius: 9999px; /* Fully rounded */
+}
+
